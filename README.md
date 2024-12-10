@@ -4,7 +4,7 @@ Initial plans are to:
 
 - collate tutorials and code relevant to lcWGS, gt-seq, etc.
 - Write short tutorials for running various scripts that would broadly useful across many analyses (fastqc, trimming, bwa mem, etc). 
-
+- Gather a running publication and code database: [started here](https://github.com/nmfs-ost/Genomics_Resources/tree/main/publications)
 
 
 ---
