@@ -1,1 +1,2 @@
-Title,Journal,Authors,Year,Description_of_Relevant_Methods,Science_Center,Contact_person,Manuscript_Link,Code_Link
+Title,Journal,Authors,Year,Description_of_Relevant_Methods,Science_Center,NOAA_contact_person,Manuscript_Link,Code_Link
+Successful Invasion Into New Environments Without Evidence of Rapid Adaptation by a Predatory Marine Gastropod, Molecular Ecology, Bentley et al., 2024, gene environment associations (LFMM); population assignments; population structure, SEFSC, Reid Brennan, https://doi.org/10.1111/mec.17575, https://github.com/bpbentley/project_uro_RADSeq/tree/main/scripts
