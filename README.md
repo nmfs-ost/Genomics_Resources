@@ -1,10 +1,17 @@
-This is a shared repository to facilitate gathering resources useful for ongoing genomics work at SEFSC and SWFSC. 
+This is a shared repository to facilitate gathering resources useful for ongoing genomics work at across NMFS. 
 
 Initial plans are to:
 
-- collate tutorials and code relevant to lcWGS, gt-seq, etc.
-- Write short tutorials for running various scripts that would broadly useful across many analyses (fastqc, trimming, bwa mem, etc). 
-- Gather a running publication and code database: [started here](https://github.com/nmfs-ost/Genomics_Resources/tree/main/publications)
+- [Omics tutorials](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials)
+    - Gather and link to existing tutorials and code relevant to lcWGS, gt-seq, etc.
+    - Write short tutorials for running various scripts that would broadly useful across many analyses (fastqc, trimming, bwa mem, etc).
+    - Develop specific tutorials for topics specific to various groups 
+- Gather a running database of omics publications and associated code: [Found here](https://github.com/nmfs-ost/Genomics_Resources/tree/main/publications)
+
+
+
+
+
 
 
 ---
