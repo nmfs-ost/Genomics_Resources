@@ -7,7 +7,12 @@ Initial plans are to:
     - Write short tutorials for running various scripts that would broadly useful across many analyses (fastqc, trimming, bwa mem, etc).
     - Develop specific tutorials for topics specific to various groups 
 - Gather a running database of omics publications and associated code: [Found here](https://github.com/nmfs-ost/Genomics_Resources/tree/main/publications)
+- How to make code and data reproducible and open?
+  - Submitting raw data to NCBI
+  - Submitting data/results to zenodo (or what is recommended by NMFS?)
+  - Github releases and linking to zenodo for publications
 
+**These plans are very preliminary and open to change and suggestion**
 
 
 
