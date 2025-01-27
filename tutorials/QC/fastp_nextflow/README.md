@@ -7,7 +7,9 @@
 
 ---
 
-This script will run in parallel, submitting 25 jobs at a time. It currently works for paired end reads. It could be modified for single end without a ton of trouble. 
+Run [fastp](https://github.com/OpenGene/fastp) to trim fastq files. 
+
+This script will run in parallel, submitting 25 jobs at a time. It currently works for paired end reads. It could be modified for single end without a ton of trouble. It accepts multiple input directories and will output trimmed files, keeping directories separate.
 
 You should put the `fastp.nf` and the `nextflow.config` in your working directory. the nf file can be in scripts and you can point to it from there. It is best to have the config file where you will run things from.
 
