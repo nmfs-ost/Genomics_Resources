@@ -19,7 +19,7 @@ params.input_dir.split(',').each { dir ->
 }
 
 process fastp {
-    debug true  // Add this line
+    debug true 
     publishDir "${params.outdir}/${dir_name}", mode: 'move', pattern: '*.clip.fastq.gz'
     tag "${dir_name}/${sample_id}"
     cpus 4
@@ -52,7 +52,7 @@ process fastp {
 workflow {
         reads_ch = Channel
         .fromFilePairs(params.input_dir.split(',').collect { dir ->
-            file(dir.trim()) + "/*_R{1,2}_001.fastq.gz"
+            file(dir.trim()) + "/*_R{1,2}.fastq.gz"
      }, flat: true)
         .map { sample_id, read1, read2 ->
             def dir_name = read1.parent.name
