@@ -35,6 +35,8 @@ You could edit this command directly in the `fastp.nf` script. Some options are 
 
 Assuming you're using Sedna. 
 
+**IMPORTANT**: The naming of the reads matters. They're currently set to be `SAMPLEID_R1.fastq.gz` and `SAMPLEID_R2.fastq.gz`. It will not work if there is any other structure. This could be modified in line 55 of `fastp.nf`. 
+
 To run, start a new screen (very important; or tmux). Then run the command below:
 
 ```bash
