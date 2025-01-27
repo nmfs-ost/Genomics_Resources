@@ -1,6 +1,6 @@
 # fastp and nextflow
 
-## Author infomation
+ Author infomation
 - Reid Brennan
 - Email: reid.brennan@noaa.gov
 - Last update: 2025-01-27
