@@ -5,6 +5,7 @@
 - Email: reid.brennan@noaa.gov
 - Last update: 2025-01-27
 
+---
 
 This script will run in parallel, submitting 25 jobs at a time. It currently works for paired end reads. It could be modified for single end without a ton of trouble. 
 
