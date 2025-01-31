@@ -13,6 +13,7 @@ You should put the `trimmomati.nf`, `nextflow.config`, and `NexteraPE_NT.fa` in 
 
 **IMPORTANT**: The naming of the reads matters. They're currently set to be `SAMPLEID_R1_001.fastq.gz` and `SAMPLEID_R2_001.fastq.gz`. It will not work if there is any other structure. This could be modified in line 67 of trimmomatic.nf.
 
+**IMPORTANT**: you need to have your correct adapters in `NexteraPE_NT.fa`. These are currently good for nextera adapters. 
 
 The trimmomatic command in the script is:
 
