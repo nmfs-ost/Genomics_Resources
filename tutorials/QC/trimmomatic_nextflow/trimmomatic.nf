@@ -44,6 +44,7 @@ process trimmomatic  {
 
     java -jar /opt/bioinformatics/bio/trimmomatic/trimmomatic-0.39/trimmomatic-0.39.jar PE \
         -threads ${task.cpus} \
+        -phred33 \
         ${read1} \
         ${read2} \
         ${sample_id}_paired.R1.fq.gz \
