@@ -35,7 +35,8 @@ Assuming you're using sedna, to run, start a new screen or tmux (very important)
 
 mamba activate nextflow-24.04.4
 
-nextflow run count_bams.nf \
+nextflow run bam_stats.nf \
+    -profile count_bams \
     --input_dir path/to/your/bam/files \
     --output_dir path/to/output \
     --output_file counts.csv
