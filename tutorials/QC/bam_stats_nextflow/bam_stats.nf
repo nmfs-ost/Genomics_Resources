@@ -24,7 +24,7 @@ process BAMSTATS {
     PERCENT=\$(grep "mapped (" tmp.${bam.baseName}.txt | cut -f 2 -d "(" | cut -f 1 -d "%" | head -n 1)
     MAPPED_q=\$(samtools view -F 4 -q 20 ${bam} | wc -l)
     PERCENT_q=\$(echo "scale=2 ; \$MAPPED_q / \$TOTAL" | bc)
-    DUPS=\$(grep "duplicates" tmp.${bam.baseName}.txt | cut -f 1 -d " ")
+    DUPS=\$(grep "duplicates" tmp.${bam.baseName}.txt | cut -f 1 -d " "| head -n 1)
     DUP_PERCENT=\$(echo "scale=2 ; \$DUPS  / \$TOTAL" | bc)
 
     echo "${bam.baseName},\$TOTAL,\$MAPPED,\$PERCENT,\$DUPS,\$DUP_PERCENT,\$MAPPED_q,\$PERCENT_q"
