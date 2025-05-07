@@ -11,6 +11,7 @@ Initial plans for development:
 
 
 Existing tutorials:
+- [Sedna HPC use and overview](https://github.com/ericgarciaresearch/noaa_sedna)
 - Marineomics website with lots of tutorials: https://marineomics.github.io/
 - Low coverage WGS: https://github.com/nt246/lcwgs-guide-tutorial
 - Filtering snps
