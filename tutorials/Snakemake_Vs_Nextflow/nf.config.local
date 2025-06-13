@@ -1,0 +1,38 @@
+// general process options
+process {
+  executor = 'local'
+  cpus = 1
+  memory = '1 GB'
+  time = '1h'
+  //conda = '/home/dmacguigan/.conda/envs/fastp-0.24.0'  // use a local conda env instead of building from the yaml
+  conda = "${projectDir}/envs/fastp-0.24.0.yaml"
+}
+
+// conda/mamba options
+conda{
+    enabled = true
+    useMamba = true
+}
+
+// Pipeline parameters
+params {
+    raw_data_dir = "${projectDir}/00_reads/"
+    publishDir = "${launchDir}/nextflow_out"
+    preprocess {
+        executor = process.executor
+    }
+    pre_fastqc {
+        maxRetries = 1
+        executor = process.executor
+    }
+    fastp {
+        memory = '2 GB'
+        executor = process.executor
+    }
+    post_fastqc {
+        executor = process.executor
+    }
+    multiqc {
+        executor = process.executor
+    }
+}
