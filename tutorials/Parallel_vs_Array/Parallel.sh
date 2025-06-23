@@ -3,7 +3,7 @@
 #SBATCH -c 10
 #SBATCH --mem=100G
 #SBATCH --partition=medmem
-#SBATCH -t 5-0:0:0
+#SBATCH -t 1-0:0:0
 #SBATCH -o %x_%j.out
 #SBATCH -e %x_%j.err
 
@@ -22,5 +22,5 @@ cat Parallel_samplenames.txt | parallel -j 10 \
 	--in2 $READS/{}_R2.fastq.gz \
 	--out1 $OUTDIR/{}_R1_trimmed.fastq.gz \
 	--out2 $OUTDIR/{}_R2_trimmed.fastq.gz \
-        --json $OUTDIR/fastp.json \
-        --html $OUTDIR/fastp.html
+        --json $OUTDIR/{}_fastp.json \
+        --html $OUTDIR/{}_fastp.html
