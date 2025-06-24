@@ -21,7 +21,7 @@ Examples of analyses where you might parallelize might be:
  HPCs generally consist of a headnode, compute nodes, and storage. The head node is where you login, the storage is where you keep your data, and the compute nodes are where the work takes place. Each compute node consists of multiple processors, each of which consists of multiple CPUs/cores. HPCs typically have hundreds or thousands of cores available across multiple nodes, allowing you to scale your analysis from running a few jobs simultaneously to potentially hundreds at once. 
  This  parallelization can reduce analysis time.
 
- ![](images/HPC_architecture.png){width=70%}
+<img src="images/HPC_architecture.png" width="200" />
 
 
 ### Examples of parallelization
