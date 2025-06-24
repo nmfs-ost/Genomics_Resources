@@ -8,6 +8,8 @@
 #SBATCH -e %x_%A_%a.err
 #SBATCH --array=[0-12]%13
 
+#written by Mia Nahom
+
 READS=../Snakemake_Vs_Nextflow/00_reads
 OUTDIR=Array_fastp
 mkdir -p $OUTDIR
