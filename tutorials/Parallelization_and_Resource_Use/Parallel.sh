@@ -7,6 +7,8 @@
 #SBATCH -o %x_%j.out
 #SBATCH -e %x_%j.err
 
+# written by Mia Nahom
+
 
 READS=../Snakemake_Vs_Nextflow/00_reads
 OUTDIR=Parallel_fastp
