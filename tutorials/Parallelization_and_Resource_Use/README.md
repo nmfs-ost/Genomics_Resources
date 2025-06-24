@@ -35,11 +35,29 @@ Building on our last tutorial [comparing snakemake and nextflow](https://github.
 
 Note that all of these scripts are setup to work on SEDNA, but could be transported to another cluster or your computer with some adjustments.
 
+#### responsible resource use
+
+A key part of these analyses (and any analysis) is determining
+
+1. How many resources are available.
+2. How many resources you need
+3. Fitting 1 and 2 together in a logical way.
+
+For example, if you're on a clould instance (aws, azure, etc) and request way more CPUs than you can use, you're wasting money. Similarly, if you're on SEDNA or an HPC, occupying a bunch of resoureces will keep anyone else from using them. Some HPCs deal with this automatically (at least how much of the cluster you're requesting at one time). Others, like SEDNA, do not. This is by design so you could use all of SEDNA, say if you're working the in the middle of the night and no one else needs the resources. But typically you want to leave resources for others. 
+
+##### So how many resources do I need?
+
+This is actually kind of hard to answer. Once you run some jobs, you can directly ask how much memory it used, for example using `seff <jobid>` on Slurm. Then next time you run a job, you can adjust (or submit one job as a test before running a batch). 
+
 #### GNU parallel
 
 [GNU parallel](https://www.gnu.org/software/parallel/) allows you to execute multiple jobs simultaneously on a single machine, which can be useful on your own computer or on an HPC. 
 
+[See the full script here](https://github.com/nmfs-ost/Genomics_Resources/blob/main/tutorials/Parallelization_and_Resource_Use/Parallel.sh)
+
 #### array jobs
+
+[See the full script here](https://github.com/nmfs-ost/Genomics_Resources/blob/main/tutorials/Parallelization_and_Resource_Use/Parallel.sh)
 
 #### snakemake
 
