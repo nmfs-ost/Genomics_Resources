@@ -78,7 +78,7 @@ Here is a nice and detailed explantion of how to set up an array: https://github
 
 <img src="images/arrays.png" width="800" />
 
-A key idea here is the $SLURM_ARRAY_TASK_ID variable, which is set to the task number, in the example above 0-12. Really important is the %13, which limits the number of jobs run simultaneously. For example, if we set `#SBATCH --array=[0-12]%2`, only 2 jobs would be run at once. That is, all are submitted, but the other 11 wait until a job finishes to run. 
+A key idea here is the `$SLURM_ARRAY_TASK_ID` variable, which is set to the task number, in the example above 0-12. Really important is the `%1`3, which limits the number of jobs run simultaneously. For example, if we set `#SBATCH --array=[0-12]%2`, only 2 jobs would be run at once. That is, all are submitted, but the other 11 wait until a job finishes to run. 
 
 We can submit an array of variable like in the example above by identifying the files in a directory. We use find for this in the example, but you could also use `ls *R1_fastq.gz` with some `cut` commands to get the basename. In either case, we're just saying, "grab all the files that end with `R1_fastq.gz`, then we use the base of the sample ID to feed to the array. If you just have a few samples, you could even do: `FILES=(Sample_A.R1.fastq, Sample_B.R1.fastq. Sample_C.R1.fastq)`
 
