@@ -24,6 +24,14 @@ Examples of analyses where you might parallelize might be:
 <img src="images/HPC_architecture.png" width="800" />
 
 
+### SEDNA resources
+
+For a detailed explanation of sedna resources, [see here](https://docs.google.com/document/d/1nn0T0OWEsQCBoCdaH6DSY69lQSbK3XnPlseyyQuU2Lc/edit?tab=t.0#heading=h.tybq9wkurqk3) But below is a general overview:
+
+<img src="images/sedna_resources.png" width="800" />
+
+
+
 ### Examples of parallelization
 
 Building on our last tutorial [comparing snakemake and nextflow](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials/Snakemake_Vs_Nextflow), we will show how to run [fastp](https://github.com/OpenGene/fastp) in parallel using:
@@ -62,11 +70,20 @@ In this approach, we're feeding parallel some list and telling it to execute the
 
 #### array jobs
 
-add some details here. 
+ Job arrays offer a mechanism for submitting and managing collections of similar jobs quickly and easily
+
+Here is a nice and detailed explantion of how to set up an array: https://github.com/nreid/using_array_jobs
 
 [See the full script here](https://github.com/nmfs-ost/Genomics_Resources/blob/main/tutorials/Parallelization_and_Resource_Use/Parallel.sh)
 
 <img src="images/arrays.png" width="800" />
+
+A key idea here is the $SLURM_ARRAY_TASK_ID variable, which is set to the task number, in the example above 0-12. Really important is the %13, which limits the number of jobs run simultaneously. For example, if we set `#SBATCH --array=[0-12]%2`, only 2 jobs would be run at once. That is, all are submitted, but the other 11 wait until a job finishes to run. 
+
+We can submit an array of variable like in the example above by identifying the files in a directory. We use find for this in the example, but you could also use `ls *R1_fastq.gz` with some `cut` commands to get the basename. In either case, we're just saying, "grab all the files that end with `R1_fastq.gz`, then we use the base of the sample ID to feed to the array. If you just have a few samples, you could even do: `FILES=(Sample_A.R1.fastq, Sample_B.R1.fastq. Sample_C.R1.fastq)`
+
+Again, see [this link for a nice detailed explanation](https://github.com/nreid/using_array_jobs).
+
 
 #### snakemake
 
