@@ -51,21 +51,34 @@ This is actually kind of hard to answer. Once you run some jobs, you can directl
 
 #### GNU parallel
 
-[GNU parallel](https://www.gnu.org/software/parallel/) allows you to execute multiple jobs simultaneously on a single machine, which can be useful on your own computer or on an HPC. 
+[GNU parallel](https://www.gnu.org/software/parallel/) allows you to execute multiple jobs simultaneously on a single machine, which can be useful on your own computer or under certain circumstances on an HPC. Note that this is the least parallelizeable approach as you're limited by the direct resources that you request! So they all need to be allocated at once before the job runs. This is different from the other approaches, which submit and run jobs independently. 
+
+In this approach, we're feeding parallel some list and telling it to execute the same job on everything in that list. Basically, we're filling in the blanks in the brackets below from the list:
+
+<img src="images/gnu_parallel.png" width="800" />
+
 
 [See the full script here](https://github.com/nmfs-ost/Genomics_Resources/blob/main/tutorials/Parallelization_and_Resource_Use/Parallel.sh)
 
 #### array jobs
 
+add some details here. 
+
 [See the full script here](https://github.com/nmfs-ost/Genomics_Resources/blob/main/tutorials/Parallelization_and_Resource_Use/Parallel.sh)
+
+<img src="images/arrays.png" width="800" />
 
 #### snakemake
 
 See the [comparing snakemake and nextflow](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials/Snakemake_Vs_Nextflow) tutorial for how to run this in full. 
 
+<img src="images/snakemake.png" width="800" />
+
 #### nextflow
 
 See the [comparing snakemake and nextflow](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials/Snakemake_Vs_Nextflow) tutorial for how to run this in full. 
+
+<img src="images/nextflow.png" width="800" />
 
 
 
