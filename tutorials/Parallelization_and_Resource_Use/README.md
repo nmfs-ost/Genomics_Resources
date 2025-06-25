@@ -95,6 +95,30 @@ See the [comparing snakemake and nextflow](https://github.com/nmfs-ost/Genomics_
 
 See the [comparing snakemake and nextflow](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials/Snakemake_Vs_Nextflow) tutorial for how to run this in full. 
 
+If we look at the [main.nf](https://github.com/nmfs-ost/Genomics_Resources/blob/main/tutorials/Snakemake_Vs_Nextflow/main.nf) file, which does the work of the analysis, we can specify the input files for our pipeline on line 85: 
+
+```groovy
+reads = Channel.fromFilePairs("${params.raw_data_dir}/SRR*_R{1,2}.fastq.gz")
+```
+ This is similar to the examples above, but handles the file pairs elegantly- it understands that files are identical except for the `R1` or `R2` and groups them into tuples where each sample's forward and reverse reads are kept together throughout the pipeline.
+
+These files are then sent to fastp:
+
+```bash
+
+        fastp -i !{reads[0]} \
+            -I !{reads[1]} \
+            -o !{reads[0].simpleName}_trimmed.fastq.gz \
+            -O !{reads[1].simpleName}_trimmed.fastq.gz
+
+```
+
+- !{reads[0]} refers to the first file in the pair (R1, forward reads)
+- !{reads[1]} refers to the second file in the pair (R2, reverse reads)
+- The output files use simpleName to strip the file extension and create clean output names
+
+Below is additional information for requesting and limiting resources:
+
 <img src="images/nextflow.png" width="800" />
 
 
