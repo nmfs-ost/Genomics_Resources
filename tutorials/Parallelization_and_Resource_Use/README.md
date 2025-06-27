@@ -1,5 +1,7 @@
 This repo demonstrate how to parallelize jobs, particularly focused on SEDNA. 
 
+[Find the slides from the presentation here.](https://github.com/nmfs-ost/Genomics_Resources/blob/main/tutorials/Parallelization_and_Resource_Use/Presentation.pdf)
+
 For many analyses, we can submit a bunch of different jobs to run in parallel, rather than either sequentially (i.e., in a loop) or as a single large job. This generally makes jobs much faster and more efficient and is the preferred way of doing analysis.
 
 Examples of analyses where you might parallelize might be:
