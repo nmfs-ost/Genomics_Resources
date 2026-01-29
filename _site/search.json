@@ -496,5 +496,25 @@
     "crumbs": [
       "Welcome"
     ]
+  },
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "This will hold the previous workshops we have held",
+    "crumbs": [
+      "Workshops"
+    ]
+  },
+  {
+    "objectID": "computing.html",
+    "href": "computing.html",
+    "title": "HPC",
+    "section": "",
+    "text": "This will hold information about Sedna and cloud workstations. Probably mostly links, perhaps Eric’s Sedna info?",
+    "crumbs": [
+      "HPC"
+    ]
   }
 ]
