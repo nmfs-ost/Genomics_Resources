@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Making shareable documents with Quarto",
+    "title": "NMFS Genomics and Bioinformatics Resources",
     "section": "",
-    "text": "It’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub. This is very new and incredibly cool. This tutorial is an example of a quarto website — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nCreating websites with Quarto can be done without knowing R, Python or HTML, CSS, etc, and that’s where we’ll start. However, Quarto integrates with these tools so you can make your websites as complex and beautiful as you like as you see examples and reuse and remix from others in the open community. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too – there are links throughout.",
+    "text": "This is a shared repository to facilitate gathering resources useful for ongoing genomics work at across NMFS.\nCurrently, this consists of:\n\nLinks to relevant scripts and pipelines\nPrevious workshops and round-tables run by the NMFS bioinformaticians\nTutorials\n\nYou can find the github repo here\n\n\n\nOmics technical portal",
     "crumbs": [
       "Welcome"
     ]
@@ -485,6 +485,16 @@
     "text": "Install Quarto\nhttps://quarto.org/docs/get-started/ describes how to install Quarto, which will depend on your operating system. We’ll walk through installation for each tool in the next chapters.",
     "crumbs": [
       "Quarto workflows"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "NMFS Genomics and Bioinformatics Resources",
+    "section": "",
+    "text": "This is a shared repository to facilitate gathering resources useful for ongoing genomics work at across NMFS.\nCurrently, this consists of:\n\nLinks to relevant scripts and pipelines\nPrevious workshops and round-tables run by the NMFS bioinformaticians\nTutorials\n\nYou can find the github repo here\n\n\n\nOmics technical portal",
+    "crumbs": [
+      "Welcome"
     ]
   }
 ]

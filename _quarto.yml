@@ -3,9 +3,9 @@ project:
   
 website: 
   page-navigation: true
-  title: "Making sharable documents with Quarto" 
-  site-url: "https://openscapes.github.io/quarto-website-tutorial" 
-  repo-url: https://github.com/openscapes/quarto-website-tutorial 
+  title: "NMFS Bioinformatics Resources" 
+  site-url: "https://nmfs-ost.github.io/Genomics_Resources/" 
+  repo-url: https://github.com/nmfs-ost/Genomics_Resources
   repo-actions: [edit, issue]
   
   page-footer:
@@ -16,15 +16,9 @@ website:
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
       - icon: github
-        href: https://github.com/openscapes/quarto-website-tutorial
-        text: "Quarto website tutorial"
-      - icon: twitter
-        href: https://twitter.com/openscapes
-        text: "Openscapes Twitter"         
+        href: https://github.com/nmfs-ost/Genomics_Resources
+        text: "NMFS Genomics Resources github"   
 
     style: "docked"
     search: true
