@@ -1,5 +1,5 @@
 ---
-title: "NMFS Genomics and Bioinformatics Resources"
+title: "NMFS Omics and Bioinformatics Resources"
 subtitle: "A location to share pipelines, code, protocols, and tutorials, managed by the NMFS Bioinformaticians"
 ---
 

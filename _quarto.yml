@@ -12,7 +12,7 @@ website:
     right: "This page is built with [Quarto](https://quarto.org/)."
     
   sidebar:
-    logo: "images/openscapes_hex.png"
+    logo: "images/logo_tmp.png"
     pinned: true
     align: center
     tools: 
