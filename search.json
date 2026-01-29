@@ -390,59 +390,19 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Making shareable documents with Quarto",
+    "title": "NMFS Genomics and Bioinformatics Resources",
     "section": "",
-    "text": "It’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub. This is very new and incredibly cool. This tutorial is an example of a quarto website — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nCreating websites with Quarto can be done without knowing R, Python or HTML, CSS, etc, and that’s where we’ll start. However, Quarto integrates with these tools so you can make your websites as complex and beautiful as you like as you see examples and reuse and remix from others in the open community. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too – there are links throughout.",
+    "text": "This is a shared repository to facilitate gathering resources useful for ongoing genomics work at across NMFS.\nCurrently, this consists of:\n\nLinks to relevant scripts and pipelines\nPrevious workshops and round-tables run by the NMFS bioinformaticians\nTutorials\n\nYou can find the github repo here\n\n\n\nOmics technical portal",
     "crumbs": [
       "Welcome"
     ]
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Making shareable documents with Quarto",
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "NMFS Genomics and Bioinformatics Resources",
     "section": "",
-    "text": "It’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub. This is very new and incredibly cool. This tutorial is an example of a quarto website — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.\nCreating websites with Quarto can be done without knowing R, Python or HTML, CSS, etc, and that’s where we’ll start. However, Quarto integrates with these tools so you can make your websites as complex and beautiful as you like as you see examples and reuse and remix from others in the open community. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too – there are links throughout.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#what-is-quarto",
-    "href": "index.html#what-is-quarto",
-    "title": "Making shareable documents with Quarto",
-    "section": "What is Quarto?",
-    "text": "What is Quarto?\nQuarto helps you have your ideas and your code in one place, and present it in a beautiful way.\nQuarto unifies and extends the RMarkdown ecosystem - it unifies by combining the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system. And it extends in several ways: all features are possible beyond R too, including Python and Javascript. It also has more “guardrails”: accessibility and inclusion are centered in the design. Quarto is for people who love RMarkdown, and it’s for people who have never used RMarkdown.\nThe ability for Quarto to streamline collaboration has been so cool and important for our NASA Openscapes project. Quarto has been a common place for us to collaborate - across R and Python languages and coding expertise.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#what-is-this-tutorial",
-    "href": "index.html#what-is-this-tutorial",
-    "title": "Making shareable documents with Quarto",
-    "section": "What is this tutorial?",
-    "text": "What is this tutorial?\nThis is a 1-hour tutorial that can be used to teach or as self-paced learning.\nWe introduce Quarto by exploring this tutorial website, and practicing the basic Quarto workflow using different tools (GitHub browser, RStudio, and Jupyter) for editing your website.\nWe’ll start off from the browser so you don’t need to install any additional software, however this approach is very limited and you will soon outgrow its capabilities. If you don’t already have a workflow to edit files and sync to GitHub from your computer, I recommend RStudio. You don’t need to know R to use RStudio, and it has powerful editor features that make for happy workflows.\nQuarto.org is the go-to place for full documentation and more tutorials!",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#example-quarto-sites",
-    "href": "index.html#example-quarto-sites",
-    "title": "Making shareable documents with Quarto",
-    "section": "Example Quarto sites",
-    "text": "Example Quarto sites\nA few Quarto websites from Openscapes - so far we have been using Quarto for documentation using Quarto and Markdown files and Jupyter Notebooks.\n\nChampions Lessons Series\nOpenscapes Approach Guide\nNASA Earthdata Cloud Cookbook\n2021 NASA Cloud Hackathon\nFaylab Lab Manual\nA Quarto tip a day, by Mine Çetinkaya-Rundel",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Making shareable documents with Quarto",
-    "section": "About",
-    "text": "About\nOpenscapes is about better science for future us. We help researchers reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research teams as part of the broader global open movement.\nWe’re developing this tutorial to help folks with different levels of technical skills use Quarto for documentation and tutorial building. This tutorial was originally created for several different audiences: NASA-Openscapes researcher support engineers using Python, communications directors at organizations promoting open science who do not identify as coders, and fisheries scientists curious about transitioning from RMarkdown. We’re hoping it’s useful to folks with backgrounds as wide as these; if you find it useful or have suggestions for improvement, please let us know by clicking “Edit this page” or “Report an issue” at the upper right side of any page.",
+    "text": "This is a shared repository to facilitate gathering resources useful for ongoing genomics work at across NMFS.\nCurrently, this consists of:\n\nLinks to relevant scripts and pipelines\nPrevious workshops and round-tables run by the NMFS bioinformaticians\nTutorials\n\nYou can find the github repo here\n\n\n\nOmics technical portal",
     "crumbs": [
       "Welcome"
     ]
