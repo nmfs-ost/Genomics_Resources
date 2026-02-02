@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/learning-more.html</loc>
-    <lastmod>2026-01-29T18:33:20.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/transition-from-rmarkdown.html</loc>
-    <lastmod>2026-01-29T18:33:20.953Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/explore.html</loc>
-    <lastmod>2026-01-29T18:33:20.906Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/README 2.html</loc>
-    <lastmod>2026-01-29T18:33:20.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/quarto-workflows/browser.html</loc>
-    <lastmod>2026-01-29T18:33:20.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/quarto-workflows/index.html</loc>
-    <lastmod>2026-01-29T18:33:20.953Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/quarto-workflows/rstudio.html</loc>
-    <lastmod>2026-01-29T18:33:20.953Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/quarto-workflows/jupyter.html</loc>
-    <lastmod>2026-01-29T18:33:20.953Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/index.html</loc>
-    <lastmod>2026-01-29T18:33:20.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/Genomics_Resources/workshops.html</loc>
-    <lastmod>2026-01-29T18:33:20.983Z</lastmod>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/tutorials.html</loc>
+    <lastmod>2026-02-02T23:27:06.919Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/Genomics_Resources/computing.html</loc>
-    <lastmod>2026-01-29T18:33:20.906Z</lastmod>
+    <lastmod>2026-02-02T23:27:06.832Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/workshops.html</loc>
+    <lastmod>2026-02-02T23:27:06.950Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/index.html</loc>
+    <lastmod>2026-02-02T23:27:06.852Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/quarto-workflows/jupyter.html</loc>
+    <lastmod>2026-02-02T23:27:06.919Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/quarto-workflows/rstudio.html</loc>
+    <lastmod>2026-02-02T23:27:06.919Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/quarto-workflows/index.html</loc>
+    <lastmod>2026-02-02T23:27:06.919Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/quarto-workflows/browser.html</loc>
+    <lastmod>2026-02-02T23:27:06.892Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/README 2.html</loc>
+    <lastmod>2026-02-02T23:27:06.790Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/explore.html</loc>
+    <lastmod>2026-02-02T23:27:06.832Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/transition-from-rmarkdown.html</loc>
+    <lastmod>2026-02-02T23:27:06.919Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/Genomics_Resources/learning-more.html</loc>
+    <lastmod>2026-02-02T23:27:06.852Z</lastmod>
   </url>
 </urlset>
