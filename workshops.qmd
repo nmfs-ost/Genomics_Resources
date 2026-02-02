@@ -2,5 +2,17 @@
 title: Workshops
 ---
 
-This will hold the previous workshops we have held
+Below are links to presentations from workshops we have offered.
 
+### 2026:
+
+-   [Reference Databases for eDNA and metabarcoding](https://github.com/nmfs-ost/Genomics_Resources/blob/main/presentations/2026-01-15_Reference_Databases_foreDNA_inSEDNA.pdf)
+
+### 2025:
+
+-   [Snakemake vs. Nextflow](https://github.com/nmfs-ost/Genomics_Resources/blob/main/presentations/2025-04-17_overview-SnakemakevsNextflow.pdf)
+    - [Associated tutorial](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials/Snakemake_Vs_Nextflow)
+-   [Parallelization and responsible use of HPC resources](https://github.com/nmfs-ost/Genomics_Resources/blob/main/presentations/2025-06-26_Parallelization_and_Resource_Use.pdf)
+    - [Associated tutorial](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials/Parallelization_and_Resource_Use)
+-   [Gemini for coding and bioinformatics at NOAA](https://github.com/nmfs-ost/Genomics_Resources/blob/main/presentations/2025-08-21_AI_Roundtable.pdf)
+-   [Using deep learning for DNA classification tasks](https://github.com/nmfs-ost/Genomics_Resources/blob/main/presentations/2025-11-13_Deep_learning_Powers_SEDNA.pptx.pdf)

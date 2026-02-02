@@ -502,7 +502,7 @@
     "href": "workshops.html",
     "title": "Workshops",
     "section": "",
-    "text": "This will hold the previous workshops we have held",
+    "text": "Below are links to presentations from workshops we have offered.\n\n2026:\n\nReference Databases for eDNA and metabarcoding\n\n\n\n2025:\n\nSnakemake vs. Nextflow\n\nAssociated tutorial\n\nParallelization and responsible use of HPC resources\n\nAssociated tutorial\n\nGemini for coding and bioinformatics at NOAA\nUsing deep learning for DNA classification tasks",
     "crumbs": [
       "Workshops"
     ]
