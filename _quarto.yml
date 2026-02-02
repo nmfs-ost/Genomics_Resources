@@ -28,6 +28,8 @@ website:
         text: Welcome
       - href: workshops.qmd
         text: Workshops
+      - href: tutorials.qmd
+        text: Tutorials
       - href: computing.qmd
         text: HPC
 

@@ -516,5 +516,15 @@
     "crumbs": [
       "HPC"
     ]
+  },
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "We have developed a number of tutorials focused on various topics. Many of these are associated with our workshops.\n\nSnakemake and Nextflow\nParallelization on Sedna\nEstimating relatedness with genomic data\nRead group overview",
+    "crumbs": [
+      "Tutorials"
+    ]
   }
 ]

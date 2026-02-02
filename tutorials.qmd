@@ -1,0 +1,11 @@
+---
+title: Tutorials
+---
+
+We have developed a number of tutorials focused on various topics. Many of these are associated with our [workshops](https://nmfs-ost.github.io/Genomics_Resources/workshops.html). 
+
+
+- [Snakemake and Nextflow](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials/Snakemake_Vs_Nextflow)
+- [Parallelization on Sedna](https://github.com/nmfs-ost/Genomics_Resources/tree/main/tutorials/Parallelization_and_Resource_Use)
+- [Estimating relatedness with genomic data](https://htmlpreview.github.io/?https://github.com/rsbrennan-NOAA/relatedness_tutorial/blob/main/relatedness.html)
+- [Read group overview](https://github.com/rsbrennan-NOAA/misc_resources/blob/main/read_groups.md)
