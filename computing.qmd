@@ -4,3 +4,9 @@ title: HPC
 
 This will hold information about Sedna and cloud workstations. Probably mostly links, perhaps Eric's Sedna info?
 
+Most of the Omics computing at NMFS is done on Sedna:
+- [Official documentation](https://docs.google.com/document/d/1nn0T0OWEsQCBoCdaH6DSY69lQSbK3XnPlseyyQuU2Lc/edit?usp=sharing)
+- [Eric Garcia's informal overview](https://github.com/ericgarciaresearch/noaa_sedna)
+
+Google workstation info:
+- to add
